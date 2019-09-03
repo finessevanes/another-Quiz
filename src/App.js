@@ -10,9 +10,6 @@ import './App.css';
 
 class App extends Component {
 
-
-
-
   constructor(props) {
     super(props);
 
@@ -22,13 +19,14 @@ class App extends Component {
       question: '',
       answerOptions: [],
       answer: '',
+      result: '',
+
       answersCount: {
         miami: 0,
         seattle: 0,
         nyc: 0,
         austin: 0
       },
-      result: ''
     };
 
     this.handleAnswerSelected = this.handleAnswerSelected.bind(this);
@@ -108,7 +106,7 @@ class App extends Component {
     if (result.length === 1) {
       this.setState({ result: result[0] });
     } else {
-      this.setState({ result: 'Undetermined' });
+      this.setState({ result: 'You love all the places!!' });
     }
   }
 

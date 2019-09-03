@@ -11,7 +11,7 @@ body {
 }
 
 .container {
-  position: relative;
+  position: center;
   max-width: 800px;
   margin: 0 auto;
   background: #fff;
@@ -19,14 +19,19 @@ body {
   opacity: inherit;
 }
 
+
+.answerOptions {
+  max-width: 100%;
+}
 .imageSelection {
-    position: relative;
-    float: left;
-    width:  500px;
-    height: 300px;
-    background-position: 50% 50%;
-    background-repeat:   no-repeat;
-    background-size:     cover;
+  border-radius: 8px;
+  position: relative;
+  float: left;
+  width: 75%;
+  height: 75%;
+  background-position: 50% 50%;
+  background-repeat:   no-repeat;
+  background-size:     cover;
 }
 
 @media (min-width: 769px) {

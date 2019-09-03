@@ -3,7 +3,7 @@ import React from 'react';
 import Question from '../components/Question';
 import QuestionCount from '../components/QuestionCount';
 import AnswerOption from '../components/AnswerOption';
-import ReactCSSTransitionGroup from 'react-addons-css-transition-group';
+
 
 
 function Quiz(props) {
@@ -25,16 +25,7 @@ function Quiz(props) {
 
 
 	return (
-		<ReactCSSTransitionGroup
-			className="container"
-			component="div"
-			transitionName="fade"
-			transitionEnterTimoeout={800}
-			transitionLeaveTimeout={500}
-			transitionAppear
-			transitionAppearTimeout={500}
-		>
-			<div key={props.questionId}>
+			<div className="centercontent"key={props.questionId}>
 			 	<QuestionCount
 			 		counter={props.questionId}
 			 		total={props.questionTotal}
@@ -47,10 +38,6 @@ function Quiz(props) {
 			  		{props.answerOptions.map(renderAnswerOptions)}
 			  	</ul>
 			 </div>
-
-		</ReactCSSTransitionGroup>
-
-
 
 	);
 
