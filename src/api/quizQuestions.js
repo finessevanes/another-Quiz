@@ -75,6 +75,81 @@ var quizQuestions = [
     ]
   },
   {
+    question: "When the sun goes down, where can your friends find you?",
+    answers: [
+      {
+        type: "austin",
+        content: "live music",
+        image: "https://source.unsplash.com/_TJ22WxXJ8U"
+      },
+      {
+        type: "miami",
+        content: "vespa",
+        image: "https://source.unsplash.com/iTZOPe7BpTM"
+      },
+      {
+        type: "nyc",
+        content: "subway",
+        image: "https://source.unsplash.com/m3th3rIQ9-w"
+      },
+      {
+        type: "seattle",
+        content: "motorcycle",
+        image: "https://source.unsplash.com/SEQ2VI0KI6A"
+      }
+    ]
+  },
+  {
+    question: "Which picture would you call home sweet home?",
+    answers: [
+      {
+        type: "austin",
+        content: "live music",
+        image: "https://source.unsplash.com/jlds0IkDG38"
+      },
+      {
+        type: "miami",
+        content: "vespa",
+        image: "https://source.unsplash.com/2d4lAQAlbDA"
+      },
+      {
+        type: "nyc",
+        content: "subway",
+        image: "https://source.unsplash.com/iecsDu416PE"
+      },
+      {
+        type: "seattle",
+        content: "motorcycle",
+        image: "https://source.unsplash.com/1ddol8rgUH8"
+      }
+    ]
+  },
+  {
+    question: "What type of culture do you prefer to experience when you go on a vacation?",
+    answers: [
+      {
+        type: "austin",
+        content: "live music",
+        image: "https://source.unsplash.com/hmw698cRnHE"
+      },
+      {
+        type: "miami",
+        content: "vespa",
+        image: "https://source.unsplash.com/7noZJ_4nhU8"
+      },
+      {
+        type: "nyc",
+        content: "subway",
+        image: "https://source.unsplash.com/Tn224epst1E"
+      },
+      {
+        type: "seattle",
+        content: "motorcycle",
+        image: "https://source.unsplash.com/DijA5f0voGQ"
+      }
+    ]
+  },
+  {
     question: "Getting around is important! How do you chose to make your way?",
     answers: [
       {
@@ -95,7 +170,7 @@ var quizQuestions = [
       {
         type: "seattle",
         content: "motorcycle",
-        image: "https://source.unsplash.com/qvT_629hapk"
+        image: "https://i.ibb.co/RCw3zZB/seattle-9.jpg"
       }
     ]
   },
@@ -120,7 +195,7 @@ var quizQuestions = [
       {
         type: "seattle",
         content: "seafood",
-
+        image: "https://source.unsplash.com/bpPTlXWTOvg"
       }
     ]
   }
